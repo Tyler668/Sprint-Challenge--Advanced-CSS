@@ -348,3 +348,12 @@ footer {
   border-radius: 10px;
   padding: 20px 0;
 }
+img {
+  transition: transform 0.8s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+}
+header img {
+  width: 100%;
+}
