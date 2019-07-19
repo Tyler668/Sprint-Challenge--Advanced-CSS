@@ -213,6 +213,8 @@ p {
   background: #F6F6F6;
   margin: 0;
   padding: 0;
+  position: fixed;
+  top: 0;
 }
 footer {
   color: #22283B;
@@ -272,6 +274,7 @@ footer {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
   padding: 50px 60px;
+  padding-top: 20px;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -400,6 +403,7 @@ header img {
   font-weight: bold;
   margin: 20px 0;
   margin: 20px 20px;
+  padding-top: 2%;
 }
 .btn:hover {
   background: white;
@@ -418,4 +422,7 @@ header img {
     width: 92%;
     border-radius: 0px;
   }
+}
+.home {
+  margin-top: 120px;
 }
