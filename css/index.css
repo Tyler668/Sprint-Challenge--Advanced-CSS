@@ -215,6 +215,7 @@ p {
   padding: 0;
   position: fixed;
   top: 0;
+  opacity: 0.85;
 }
 footer {
   color: #22283B;
@@ -424,5 +425,5 @@ header img {
   }
 }
 .home {
-  margin-top: 120px;
+  margin-top: 125px;
 }
